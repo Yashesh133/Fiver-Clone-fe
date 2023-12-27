@@ -10,6 +10,7 @@ import Messages from "./pages/messages/Messages"
 import MyGig from "./pages/myGig/MyGig"
 import Order from "./pages/orders/Order"
 import Register from "./pages/register/Register"
+import Footer from "./Components/Footer";
 
 import {
   createBrowserRouter,
@@ -24,6 +25,7 @@ function App() {
       <>
         <Navbar />
         <Outlet />
+        <Footer />
       </>
     )
   }
@@ -79,7 +81,7 @@ function App() {
 
   return (
     <>
-      <div className="h-[2296px]">
+      <div>
         <RouterProvider router={router} />
       </div>
     </>
