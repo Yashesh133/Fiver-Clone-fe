@@ -66,7 +66,7 @@ const Navbar = () => {
                       <div className='absolute top-12 p-[20px] bg-white rounded-xl border flex flex-col gap-3 text-gray-600 w-[150px] font-medium'>
                         {sellerUser?.isSeller && (
                           <>
-                            <Link to="/Gig">Gigs</Link>
+                            <Link to="/Gigs">Gigs</Link>
                             <Link to="/AddGig">Add New Gigs</Link>
                           </>
                         )}
